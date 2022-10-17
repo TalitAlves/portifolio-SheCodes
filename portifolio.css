@@ -1,0 +1,29 @@
+/* font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;*/
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 96px;
+  text-align: left;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+button {
+  background-color: #6c63ff;
+  color: #ffffff;
+  border-radius: 4px;
+  text-align: center;
+  padding: 18px 30px;
+  border: none;
+}
