@@ -43,6 +43,26 @@ p {
   text-align: justify;
 }
 
+footer {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.email {
+  font-family: var(--sub-tittle-font);
+  font-size: 24px;
+  margin: 10px;
+  font-weight: 500px;
+}
+
+.icone {
+  display: flex;
+  font-size: 25px;
+  font-weight: 500px;
+  line-height: 20px;
+  justify-content: space-around;
+  padding: 20px 550px;
+}
 .sub-tittle {
   font-family: var(--tittle-font);
   font-size: 54px;
@@ -105,7 +125,4 @@ p {
 
 #home {
   color: var(--secondary-color);
-}
-.fa-solid {
-  font-size: 25px;
 }
