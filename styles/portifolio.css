@@ -105,6 +105,10 @@ footer {
   text-align: center;
 }
 
+.contact-page {
+  text-align: center;
+}
+
 .margin-navbar {
   margin: 25px;
 }
@@ -195,11 +199,15 @@ footer {
     font-weight: 200;
   }
   .p-10 {
-    padding: 10px !important;
+    padding: 0px !important;
   }
 
   .mb-30 {
     margin-bottom: 10px !important;
+  }
+
+  .mb-5 {
+    margin-bottom: 0px !important;
   }
 
   .email {
