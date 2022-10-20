@@ -7,10 +7,6 @@ font-family: 'Poppins', sans-serif;*/
   --sub-tittle-font: "Poppins", sans-serif;
 }
 
-body {
-  background-color: #f9f7fe;
-}
-
 h1 {
   font-family: var(--tittle-font);
   font-size: 80px;
@@ -77,15 +73,18 @@ footer {
   font-size: 35px;
   font-weight: 500px;
   line-height: 20px;
-  padding: 20px;
+  padding: 15px;
   display: flex;
-  align-content: space-between;
+  align-content: space-around;
+  background-color: #f8f7ff;
+  border-radius: 50%;
+  margin: 0 70px;
 }
 .sub-tittle {
   font-family: var(--tittle-font);
   font-size: 54px;
   font-weight: 700px;
-  line-height: 85px;
+  line-height: 70px;
 }
 
 .header-my-project {
@@ -177,7 +176,7 @@ footer {
   border-radius: 4px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .sub-tittle {
     font-size: 25px;
   }
@@ -207,7 +206,7 @@ footer {
   }
 
   .mb-5 {
-    margin-bottom: 0px !important;
+    margin-bottom: 1px !important;
   }
 
   .email {
@@ -234,5 +233,9 @@ footer {
 
   .header-my-project {
     padding-bottom: 5px;
+  }
+
+  .icon {
+    margin: 0 35px;
   }
 }
